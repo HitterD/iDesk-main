@@ -1,0 +1,72 @@
+src/modules/audit/audit.service.ts(316,13): error TS2532: Object is possibly 'undefined'.
+src/modules/auth/application/auth.service.spec.ts(67,56): error TS2345: Argument of type 'null' is not assignable to parameter of type 'User | Promise<User | undefined> | undefined'.
+src/modules/auth/application/auth.service.spec.ts(186,53): error TS2345: Argument of type 'null' is not assignable to parameter of type 'User | Promise<User | undefined> | undefined'.
+src/modules/auth/application/auth.service.spec.ts(238,56): error TS2345: Argument of type 'null' is not assignable to parameter of type 'User | Promise<User | undefined> | undefined'.
+src/modules/auth/application/auth.service.ts(33,67): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/auth/application/auth.service.ts(99,60): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/auth/application/auth.service.ts(128,48): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/automation/services/action-executor.service.ts(47,62): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/automation/services/action-executor.service.ts(51,64): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/automation/services/action-executor.service.ts(59,65): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/automation/services/action-executor.service.ts(147,17): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/automation/services/action-executor.service.ts(151,90): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/automation/services/action-executor.service.ts(159,17): error TS2322: Type 'string | undefined' is not assignable to type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/eform-request/eform-pdf.service.ts(23,26): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(text: string, x?: number | undefined, y?: number | undefined, options?: TextOptions | undefined): PDFDocument', gave the following error.
+    Argument of type '{ align: string; charSpacing: number; }' is not assignable to parameter of type 'number'.
+  Overload 2 of 2, '(text: string, options?: TextOptions | undefined): PDFDocument', gave the following error.
+    Object literal may only specify known properties, and 'charSpacing' does not exist in type 'TextOptions'.
+src/modules/eform-request/eform-pdf.service.ts(24,26): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(text: string, x?: number | undefined, y?: number | undefined, options?: TextOptions | undefined): PDFDocument', gave the following error.
+    Argument of type '{ align: string; charSpacing: number; }' is not assignable to parameter of type 'number'.
+  Overload 2 of 2, '(text: string, options?: TextOptions | undefined): PDFDocument', gave the following error.
+    Object literal may only specify known properties, and 'charSpacing' does not exist in type 'TextOptions'.
+src/modules/eform-request/eform-request.service.ts(103,5): error TS2322: Type 'string | undefined' is not assignable to type 'string | null'.
+  Type 'undefined' is not assignable to type 'string | null'.
+src/modules/ict-budget/ict-budget.controller.ts(119,28): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/ict-budget/ict-budget.controller.ts(120,29): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/modules/ict-budget/ict-budget.service.ts(69,35): error TS2339: Property 'id' does not exist on type 'Ticket[]'.
+src/modules/ict-budget/ict-budget.service.ts(83,19): error TS2339: Property 'id' does not exist on type 'IctBudgetRequest[]'.
+src/modules/ict-budget/ict-budget.service.ts(93,9): error TS2740: Type 'IctBudgetRequest[]' is missing the following properties from type 'IctBudgetRequest': id, ticketId, ticket, requestType, and 21 more.
+src/modules/ict-budget/ict-budget.service.ts(243,9): error TS2322: Type 'string | undefined' is not assignable to type 'string | null'.
+  Type 'undefined' is not assignable to type 'string | null'.
+src/modules/ict-budget/ict-budget.service.ts(351,9): error TS2322: Type 'string | undefined' is not assignable to type 'string | null'.
+  Type 'undefined' is not assignable to type 'string | null'.
+src/modules/ict-budget/ict-budget.service.ts(352,9): error TS2322: Type 'string | undefined' is not assignable to type 'string | null'.
+  Type 'undefined' is not assignable to type 'string | null'.
+src/modules/ict-budget/ict-budget.service.ts(353,9): error TS2322: Type 'string | undefined' is not assignable to type 'string | null'.
+  Type 'undefined' is not assignable to type 'string | null'.
+src/modules/ict-budget/ict-budget.service.ts(755,37): error TS2339: Property 'id' does not exist on type 'Ticket[]'.
+src/modules/ict-budget/ict-budget.service.ts(776,9): error TS2740: Type 'Ticket[]' is missing the following properties from type 'Ticket': id, ticketNumber, title, description, and 38 more.
+src/modules/lost-item/lost-item.service.ts(118,13): error TS2322: Type 'string | undefined' is not assignable to type 'string | null'.
+  Type 'undefined' is not assignable to type 'string | null'.
+src/modules/lost-item/lost-item.service.ts(119,13): error TS2322: Type 'string | undefined' is not assignable to type 'string | null'.
+  Type 'undefined' is not assignable to type 'string | null'.
+src/modules/notifications/notification-center.service.ts(142,41): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<NotificationPreference>[]): NotificationPreference[]', gave the following error.
+    Object literal may only specify known properties, and 'userId' does not exist in type 'DeepPartial<NotificationPreference>[]'.
+  Overload 2 of 3, '(entityLike: DeepPartial<NotificationPreference>): NotificationPreference', gave the following error.
+    Type 'string | null | undefined' is not assignable to type 'string | undefined'.
+      Type 'null' is not assignable to type 'string | undefined'.
+src/modules/permissions/permissions.service.ts(576,17): error TS2322: Type 'boolean | undefined' is not assignable to type 'boolean'.
+  Type 'undefined' is not assignable to type 'boolean'.
+src/modules/renewal/renewal.service.ts(474,52): error TS2345: Argument of type 'Date | null' is not assignable to parameter of type 'Date'.
+  Type 'null' is not assignable to type 'Date'.
+src/modules/renewal/services/pdf-extraction.service.ts(38,21): error TS2801: This condition will always return true since this 'Promise<boolean>' is always defined.
+src/modules/settings/settings.service.ts(76,13): error TS2322: Type 'string | null' is not assignable to type 'string'.
+  Type 'null' is not assignable to type 'string'.
+src/modules/sla-config/business-hours.service.ts(175,9): error TS2322: Type 'BusinessHours | null' is not assignable to type 'BusinessHours'.
+  Type 'null' is not assignable to type 'BusinessHours'.
+src/modules/sla-config/business-hours.service.ts(198,9): error TS2322: Type 'BusinessHours | null' is not assignable to type 'BusinessHours'.
+  Type 'null' is not assignable to type 'BusinessHours'.

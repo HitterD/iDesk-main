@@ -1,0 +1,8 @@
+node_modules/
+dist/
+idesk-*.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
